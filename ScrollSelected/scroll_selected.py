@@ -195,10 +195,10 @@ class ScrollSelected:
             
             else:
                 mw = self.iface.mainWindow()
-                QMessageBox.warning(mw, "Scroll Selected", "Please select some features, YOU FOOL.")
+                QMessageBox.warning(mw, "Scroll Selected", "Please select some features.")
         else:
             mw = self.iface.mainWindow()
-            QMessageBox.warning(mw, "Scroll Selected", "Please select a layer, YOU FOOL.")
+            QMessageBox.warning(mw, "Scroll Selected", "Please select a layer.")
 
     def left(self):
         layer = self.iface.activeLayer()
@@ -215,10 +215,10 @@ class ScrollSelected:
             
             else:
                 mw = self.iface.mainWindow()
-                QMessageBox.warning(mw, "Scroll Selected", "Please select some features, YOU FOOL.")
+                QMessageBox.warning(mw, "Scroll Selected", "Please select some features.")
         else:
             mw = self.iface.mainWindow()
-            QMessageBox.warning(mw, "Scroll Selected", "Please select a layer, YOU FOOL.")
+            QMessageBox.warning(mw, "Scroll Selected", "Please select a layer.")
 
     def run(self):
         
